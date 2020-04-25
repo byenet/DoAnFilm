@@ -1,25 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import HomeTemplate from "./Templates/home-template";
+import AdminTemplate from "./Templates/admin-template";
+import { routesHome, routesAdmin } from "./Route";
+import PageNotFound from "./Components/Home/PageNotFound";
+import LoginAdmin from "./Pages/Admin/LoginAdmin";
+
+const showMenuHome = routes => {
+  if (routes && routes.length > 0) {
+    return routes.map((item, index) => {
+      return (
+        <HomeTemplate
+          key={index}
+          path={item.path}
+          exact={item.exact}
+          Component={item.component}
+        />
+      );
+    });
+  }
+};
+
+const showMenuAdmin = routes => {
+  if(routes && routes.length > 0){
+    return routes.map((item, index) => {
+      return (
+        <AdminTemplate
+          key={index}
+          path={item.path}
+          exact = {item.exact}
+          Component={item.component}
+        />
+      )
+    })
+  }
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        {showMenuHome(routesHome)}
+        {showMenuAdmin(routesAdmin)}
+        <Route path="/admin" component={LoginAdmin} />
+        <Route path="" component={PageNotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

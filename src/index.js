@@ -4,10 +4,39 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// import Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import "jquery/dist/jquery.min.js";
+import "popper.js/dist/umd/popper.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+
+
+// setup Redux 
+import {Provider} from "react-redux";
+import {createStore, applyMiddleware, compose} from "redux";
+import rootReducer from './Redux/Reducers/rootReducer';
+
+// redux-thunk 
+import thunk from "redux-thunk";
+
+// import slick react 
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+
+
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(
+  rootReducer, 
+  composeEnhancers(applyMiddleware(thunk))
+);
+
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
