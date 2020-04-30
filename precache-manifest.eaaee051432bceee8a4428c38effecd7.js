@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25a0408f7eda8c2117b8b0f8ab379dd3",
+    "revision": "e4379d40fc00abe6f06c85d8728fd6af",
     "url": "/DoAnFilm/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DoAnFilm/static/css/2.48d11831.chunk.css"
   },
   {
-    "revision": "eb57f74e767b9b4c7de4",
+    "revision": "625a22966559e440a38b",
     "url": "/DoAnFilm/static/css/main.7ad6b3e7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DoAnFilm/static/js/2.61ed1dbf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb57f74e767b9b4c7de4",
-    "url": "/DoAnFilm/static/js/main.79b514c6.chunk.js"
+    "revision": "625a22966559e440a38b",
+    "url": "/DoAnFilm/static/js/main.b98ed498.chunk.js"
   },
   {
     "revision": "eadceac54248ed494069",
