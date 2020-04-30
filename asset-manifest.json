@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/DoAnFilm/static/css/main.7ad6b3e7.chunk.css",
+    "main.js": "/DoAnFilm/static/js/main.8ea48c17.chunk.js",
+    "main.js.map": "/DoAnFilm/static/js/main.8ea48c17.chunk.js.map",
+    "runtime-main.js": "/DoAnFilm/static/js/runtime-main.e940c4b9.js",
+    "runtime-main.js.map": "/DoAnFilm/static/js/runtime-main.e940c4b9.js.map",
+    "static/css/2.48d11831.chunk.css": "/DoAnFilm/static/css/2.48d11831.chunk.css",
+    "static/js/2.30fd1d0f.chunk.js": "/DoAnFilm/static/js/2.30fd1d0f.chunk.js",
+    "static/js/2.30fd1d0f.chunk.js.map": "/DoAnFilm/static/js/2.30fd1d0f.chunk.js.map",
+    "index.html": "/DoAnFilm/index.html",
+    "precache-manifest.1b8647ae8b141dc87fba38112908271c.js": "/DoAnFilm/precache-manifest.1b8647ae8b141dc87fba38112908271c.js",
+    "service-worker.js": "/DoAnFilm/service-worker.js",
+    "static/css/2.48d11831.chunk.css.map": "/DoAnFilm/static/css/2.48d11831.chunk.css.map",
+    "static/css/main.7ad6b3e7.chunk.css.map": "/DoAnFilm/static/css/main.7ad6b3e7.chunk.css.map",
+    "static/js/2.30fd1d0f.chunk.js.LICENSE.txt": "/DoAnFilm/static/js/2.30fd1d0f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/DoAnFilm/static/media/backfroundTroiSao.edc704b7.jpg",
+    "static/media/carousel1.jpg": "/DoAnFilm/static/media/carousel1.23332035.jpg",
+    "static/media/carousel2.jpg": "/DoAnFilm/static/media/carousel2.67c447ca.jpg",
+    "static/media/carousel3.jpg": "/DoAnFilm/static/media/carousel3.5ffa88aa.jpg",
+    "static/media/carousel4.jpg": "/DoAnFilm/static/media/carousel4.b40a1f2c.jpg",
+    "static/media/carousel5.jpg": "/DoAnFilm/static/media/carousel5.a75ea149.jpg",
+    "static/media/dcine.png": "/DoAnFilm/static/media/dcine.d7c743ae.png",
+    "static/media/lottecinema.png": "/DoAnFilm/static/media/lottecinema.184067dc.png",
+    "static/media/rapPhim.jpg": "/DoAnFilm/static/media/rapPhim.57159a7f.jpg",
+    "static/media/slick-theme.css": "/DoAnFilm/static/media/slick.f97e3bbf.svg",
+    "static/media/_pagenotfound.scss": "/DoAnFilm/static/media/tumblr_neq0yw9rMA1tm16jjo1_500.4564f794.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e940c4b9.js",
+    "static/css/2.48d11831.chunk.css",
+    "static/js/2.30fd1d0f.chunk.js",
+    "static/css/main.7ad6b3e7.chunk.css",
+    "static/js/main.8ea48c17.chunk.js"
+  ]
+}
